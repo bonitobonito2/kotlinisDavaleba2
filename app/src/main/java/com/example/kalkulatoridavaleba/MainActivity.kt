@@ -335,7 +335,7 @@ var cnt=1
 
                   var fnum1=num1.toLong()
                   var fnum2=num2.toLong()
-                  var fresult= resultChild.toInt()
+                  var fresult= resultChild.toLong()
                   result.text = fresult.toString()
                   idk.text = "pow(${fnum2},${fnum1})"
               }else if(num1%1!==0.0 && num2%1==0.0 && resultChild%1!==0.0) {
