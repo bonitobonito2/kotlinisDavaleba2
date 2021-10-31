@@ -72,22 +72,22 @@ var cnt=1
 
                     if (something % 1 == 0.0 && operant % 1 !== 0.0 && secop % 1 !== 0.0) {
                         // tu jami intia
-                        var axali = something.toInt()
+                        var axali = something.toLong()
                         result.text = axali.toString()
                         idk.text = operant.toString() + this.opperator + secop.toString()
 
                     }else if(something % 1 == 0.0 && operant % 1 == 0.0 && secop % 1 !== 0.0){
                         //tu jami da pirveli shesakrebi intia
-                        var axali = something.toInt()
-                        var axali1= operant.toInt()
+                        var axali = something.toLong()
+                        var axali1= operant.toLong()
                         result.text = axali.toString()
                         idk.text = axali1.toString() + this.opperator + secop.toString()
 
                     }else if(something % 1 == 0.0 && operant % 1 == 0.0 && secop % 1 == 0.0){
                         // tu yvelaferi intia
-                        var axali = something.toInt()
-                        var axali1= operant.toInt()
-                        var axali3=secop.toInt()
+                        var axali = something.toLong()
+                        var axali1= operant.toLong()
+                        var axali3=secop.toLong()
                         result.text = axali.toString()
                         idk.text = axali1.toString() + this.opperator + axali3.toString()
 
@@ -101,7 +101,7 @@ var cnt=1
                     }else if(something % 1 !== 0.0 && operant % 1 == 0.0 && secop % 1 !== 0.0){
                         // tu yvelaferi intia
 
-                        var axali1= operant.toInt()
+                        var axali1= operant.toLong()
 
                         result.text = something.toString()
                         idk.text = axali1.toString() + this.opperator + secop.toString()
@@ -110,7 +110,7 @@ var cnt=1
                     else if(something % 1 !== 0.0 && operant % 1 !== 0.0 && secop % 1 == 0.0){
                         // tu yvelaferi intia
 
-                        var axali1= secop.toInt()
+                        var axali1= secop.toLong()
 
                         result.text = something.toString()
                         idk.text = operant.toString() + this.opperator + axali1.toString()
@@ -122,22 +122,22 @@ var cnt=1
 
                     if (something % 1 == 0.0 && operant % 1 !== 0.0 && secop % 1 !== 0.0) {
                         // tu jami intia
-                        var axali = something.toInt()
+                        var axali = something.toLong()
                         result.text = axali.toString()
                         idk.text = operant.toString() + this.opperator + secop.toString()
 
                     }else if(something % 1 == 0.0 && operant % 1 == 0.0 && secop % 1 !== 0.0){
                         //tu jami da pirveli shesakrebi intia
-                        var axali = something.toInt()
-                        var axali1= operant.toInt()
+                        var axali = something.toLong()
+                        var axali1= operant.toLong()
                         result.text = axali.toString()
                         idk.text = axali1.toString() + this.opperator + secop.toString()
 
                     }else if(something % 1 == 0.0 && operant % 1 == 0.0 && secop % 1 == 0.0){
                         // tu yvelaferi intia
-                        var axali = something.toInt()
-                        var axali1= operant.toInt()
-                        var axali3=secop.toInt()
+                        var axali = something.toLong()
+                        var axali1= operant.toLong()
+                        var axali3=secop.toLong()
                         result.text = axali.toString()
                         idk.text = axali1.toString() + this.opperator + axali3.toString()
 
@@ -151,7 +151,7 @@ var cnt=1
                     }else if(something % 1 !== 0.0 && operant % 1 == 0.0 && secop % 1 !== 0.0){
                         // tu yvelaferi intia
 
-                        var axali1= operant.toInt()
+                        var axali1= operant.toLong()
 
                         result.text = something.toString()
                         idk.text = axali1.toString() + this.opperator + secop.toString()
@@ -160,7 +160,7 @@ var cnt=1
                     else if(something % 1 !== 0.0 && operant % 1 !== 0.0 && secop % 1 == 0.0){
                         // tu yvelaferi intia
 
-                        var axali1= secop.toInt()
+                        var axali1= secop.toLong()
 
                         result.text = something.toString()
                         idk.text = operant.toString() + this.opperator + axali1.toString()
@@ -173,22 +173,22 @@ var cnt=1
 
                     if (something % 1 == 0.0 && operant % 1 !== 0.0 && secop % 1 !== 0.0) {
                         // tu jami intia
-                        var axali = something.toInt()
+                        var axali = something.toLong()
                         result.text = axali.toString()
                         idk.text = operant.toString() + this.opperator + secop.toString()
 
                     }else if(something % 1 == 0.0 && operant % 1 == 0.0 && secop % 1 !== 0.0){
                         //tu jami da pirveli shesakrebi intia
-                        var axali = something.toInt()
-                        var axali1= operant.toInt()
+                        var axali = something.toLong()
+                        var axali1= operant.toLong()
                         result.text = axali.toString()
                         idk.text = axali1.toString() + this.opperator + secop.toString()
 
                     }else if(something % 1 == 0.0 && operant % 1 == 0.0 && secop % 1 == 0.0){
                         // tu yvelaferi intia
-                        var axali = something.toInt()
-                        var axali1= operant.toInt()
-                        var axali3=secop.toInt()
+                        var axali = something.toLong()
+                        var axali1= operant.toLong()
+                        var axali3=secop.toLong()
                         result.text = axali.toString()
                         idk.text = axali1.toString() + this.opperator + axali3.toString()
 
@@ -202,7 +202,7 @@ var cnt=1
                     }else if(something % 1 !== 0.0 && operant % 1 == 0.0 && secop % 1 !== 0.0){
                         // tu yvelaferi intia
 
-                        var axali1= operant.toInt()
+                        var axali1= operant.toLong()
 
                         result.text = something.toString()
                         idk.text = axali1.toString() + this.opperator + secop.toString()
@@ -211,7 +211,7 @@ var cnt=1
                     else if(something % 1 !== 0.0 && operant % 1 !== 0.0 && secop % 1 == 0.0){
                         // tu yvelaferi intia
 
-                        var axali1= secop.toInt()
+                        var axali1= secop.toLong()
 
                         result.text = something.toString()
                         idk.text = operant.toString() + this.opperator + axali1.toString()
@@ -219,8 +219,8 @@ var cnt=1
                     } else if(something % 1 == 0.0 && operant % 1 !== 0.0 && secop % 1 == 0.0){
                         // tu yvelaferi intia
 
-                        var axali1= something.toInt()
-                        var axali2=operant.toInt()
+                        var axali1= something.toLong()
+                        var axali2=operant.toLong()
 
                         result.text = axali1.toString()
                         idk.text = operant.toString() + this.opperator +axali2.toString()
@@ -229,8 +229,8 @@ var cnt=1
                     else if(something % 1 == 0.0 && operant % 1 == 0.0 && secop % 1 !== 0.0){
                         // tu yvelaferi intia
 
-                        var axali1= something.toInt()
-                        var axali2=secop.toInt()
+                        var axali1= something.toLong()
+                        var axali2=secop.toLong()
 
                         result.text = axali1.toString()
                         idk.text = axali2.toString() + this.opperator +operant.toString()
@@ -243,22 +243,22 @@ var cnt=1
 
                     if (something % 1 == 0.0 && operant % 1 !== 0.0 && secop % 1 !== 0.0) {
                         // tu jami intia
-                        var axali = something.toInt()
+                        var axali = something.toLong()
                         result.text = axali.toString()
                         idk.text = operant.toString() + this.opperator + secop.toString()
 
                     }else if(something % 1 == 0.0 && operant % 1 == 0.0 && secop % 1 !== 0.0){
                         //tu jami da pirveli shesakrebi intia
-                        var axali = something.toInt()
-                        var axali1= operant.toInt()
+                        var axali = something.toLong()
+                        var axali1= operant.toLong()
                         result.text = axali.toString()
                         idk.text = axali1.toString() + this.opperator + secop.toString()
 
                     }else if(something % 1 == 0.0 && operant % 1 == 0.0 && secop % 1 == 0.0){
                         // tu yvelaferi intia
-                        var axali = something.toInt()
-                        var axali1= operant.toInt()
-                        var axali3=secop.toInt()
+                        var axali = something.toLong()
+                        var axali1= operant.toLong()
+                        var axali3=secop.toLong()
                         result.text = axali.toString()
                         idk.text = axali1.toString() + this.opperator + axali3.toString()
 
@@ -272,7 +272,7 @@ var cnt=1
                     }else if(something % 1 !== 0.0 && operant % 1 == 0.0 && secop % 1 !== 0.0){
                         // tu yvelaferi intia
 
-                        var axali1= operant.toInt()
+                        var axali1= operant.toLong()
 
                         result.text = something.toString()
                         idk.text = axali1.toString() + this.opperator + secop.toString()
@@ -281,7 +281,7 @@ var cnt=1
                     else if(something % 1 !== 0.0 && operant % 1 !== 0.0 && secop % 1 == 0.0){
                         // tu yvelaferi intia
 
-                        var axali1= secop.toInt()
+                        var axali1= secop.toLong()
 
                         result.text = something.toString()
                         idk.text = operant.toString() + this.opperator + axali1.toString()
@@ -290,7 +290,7 @@ var cnt=1
                         // tu yvelaferi intia
 
                         var axali1= something.toInt()
-                        var axali2=operant.toInt()
+                        var axali2=operant.toLong()
 
                         result.text = axali1.toString()
                         idk.text = operant.toString() + this.opperator +axali2.toString()
@@ -299,8 +299,8 @@ var cnt=1
                     else if(something % 1 == 0.0 && operant % 1 == 0.0 && secop % 1 !== 0.0){
                         // tu yvelaferi intia
 
-                        var axali1= something.toInt()
-                        var axali2=secop.toInt()
+                        var axali1= something.toLong()
+                        var axali2=secop.toLong()
 
                         result.text = axali1.toString()
                         idk.text = axali2.toString() + this.opperator +operant.toString()
@@ -309,8 +309,8 @@ var cnt=1
                     else if(something % 1 !== 0.0 && operant % 1 == 0.0 && secop % 1 == 0.0){
                         // tu yvelaferi intia
 
-                        var axali1= secop.toInt()
-                        var axali2=operant.toInt()
+                        var axali1= secop.toLong()
+                        var axali2=operant.toLong()
 
                         result.text = something.toString()
                         idk.text = axali2.toString() + this.opperator +axali1.toString()
@@ -333,37 +333,37 @@ var cnt=1
                   idk.text = "pow(${num2},${num1})"
               }else if(num1%1==0.0 && num2%1==0.0 && resultChild%1==0.0) {
 
-                  var fnum1=num1.toInt()
-                  var fnum2=num2.toInt()
+                  var fnum1=num1.toLong()
+                  var fnum2=num2.toLong()
                   var fresult= resultChild.toInt()
                   result.text = fresult.toString()
                   idk.text = "pow(${fnum2},${fnum1})"
               }else if(num1%1!==0.0 && num2%1==0.0 && resultChild%1!==0.0) {
 
 
-                  var fnum2=num2.toInt()
+                  var fnum2=num2.toLong()
 
                   result.text = resultChild.toString()
                   idk.text = "pow(${fnum2},${num1})"
               }else if(num1%1!==0.0 && num2%1==0.0 && resultChild%1==0.0) {
 
 
-                  var fnum2=num2.toInt()
-                  var fresult=resultChild.toInt()
+                  var fnum2=num2.toLong()
+                  var fresult=resultChild.toLong()
                   result.text = fresult.toString()
                   idk.text = "pow(${fnum2},${num1})"
               }else if(num1%1==0.0 && num2%1!==0.0 && resultChild%1!==0.0) {
 
 
-                  var fnum2=num1.toInt()
+                  var fnum2=num1.toLong()
 
                   result.text = resultChild.toString()
                   idk.text = "pow(${num2},${fnum2})"
               }else if(num1%1==0.0 && num2%1!==0.0 && resultChild%1==0.0) {
 
 
-                  var fnum2=num1.toInt()
-                 var fresult=resultChild.toInt()
+                  var fnum2=num1.toLong()
+                 var fresult=resultChild.toLong()
                   result.text = fresult.toString()
                   idk.text = "pow(${num2},${fnum2})"
               }
